@@ -1,26 +1,42 @@
-
 html {
   font-family: serif;
 }
 
 header {
-  background-color: #70dde4;
   text-align: left;
 }
 
-h1 {
-  font-family: sans-serif;
-  padding: 1rem;
-  padding-bottom: 0;
-
+.sans-serif {
+  font-family: bureau-grot, sans-serif;
 }
 
 a {
   text-decoration: none;
-
+  color: black;
 }
 
-a:hover {
-  background-color:   color: #70dde4;;
-  color: #black;
+.footer {
+  float: right;
+}
+
+.nav a {
+  font-family: sans-serif;
+  padding: .375em .75em .42em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.sans-bold {
+  font-family: bureau-grot, sans-serif;
+  font-style: normal;
+}
+
+.serif {
+  font-family: adonis-web, serif;
+  font-style: normal;
 }
